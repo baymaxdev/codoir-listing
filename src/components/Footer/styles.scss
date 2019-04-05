@@ -1,0 +1,44 @@
+@import "../../../globals";
+
+.footer-container {
+  position: fixed;
+  bottom: 0px;
+  width: 95vw;
+  height: 55px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 2.5vw;
+  margin-left: -1.25vw;
+  z-index: 100;
+
+  .selected-count-div {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 16px;
+    color: $greenColor;
+  }
+
+  .count-div {
+    width: 90px;
+    height: 20px;
+    background-color: $titleColor;
+    border-radius: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    font-size: 10px;
+    color: #ffffff;
+
+    .count-number {
+      font-size: 12px;
+      margin-right: 5px;
+    }
+  }
+}
